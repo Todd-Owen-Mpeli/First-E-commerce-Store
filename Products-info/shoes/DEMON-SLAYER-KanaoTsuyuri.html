@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Website Title -->
+		<title>Todd Blue Studio</title>
+		<!-- Website icon -->
+		<link
+			rel="icon"
+			href="/Projects/Online-Store/Online-Store-Images/_MG_3296.jpg"
+			type="image/x-icon"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+			crossorigin="anonymous"
+		/>
+		<!-- Bootstrap Icon Link -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+		/>
+		<!-- CSS stylesheet link -->
+		<link
+			rel="stylesheet"
+			href="/Projects/Online-Store/Assets/CSS/productsShoesStyles.css"
+		/>
+		<!-- Icons for Mobile viewport -->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+	</head>
+	<!-- Automatically changes website theme to the current device system theme -->
+	<!--class="theme-auto"  -->
+	<body>
+		<!--===== HEADER =====-->
+		<header class="header" id="header">
+			<!-- Navigation Section -->
+			<nav class="nav navbar navbar-expand-md">
+				<div class="container">
+					<div class="button">
+						<a href="/Projects/Online-Store/onlineStore.html">
+							<img
+								id="website-icon"
+								onmouseover="setNewImage()"
+								onmouseout="setOldImage()"
+								src="/Projects/Online-Store/Online-Store-Images/Picture2-removebg-preview.png"
+								alt="profile pictures"
+						/></a>
+					</div>
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navmenu"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navmenu">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a href="/Projects/Online-Store/shop.html" class="nav-link"
+									>Shop</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown"
+									href="/Projects/Online-Store/anime.html"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Anime
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown"
+									href="/Projects/Online-Store/newRelease.html"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									New Releases
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdownMenuLink"
+								>
+									<li><a class="dropdown-item" href="#">Air Force 1</a></li>
+									<li><a class="dropdown-item" href="#">bags</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link"
+									><i class="checkout-cart bi bi-bag"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--===== MAIN SLIDER =====-->
+		<main class="main">
+			<!-- Product Information Section -->
+			<section class="product-section container-fluid px-2 py-1">
+				<div class="card">
+					<!-- Product Images left -->
+					<div class="product-imgs py-xl-5">
+						<div class="img-display">
+							<div class="img-showcase">
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3419.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3419-2.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3425.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3426.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3436.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3431.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3432.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3433.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3434.jpg"
+									alt="Shoe image"
+								/>
+								<img
+									src="/Projects/Online-Store/Online-Store-Images/_MG_3437.jpg"
+									alt="Shoe image"
+								/>
+							</div>
+						</div>
+						<div class="img-select">
+							<div class="img-item">
+								<a href="#" data-id="1">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3419.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="2">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3419-2.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="3">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3425.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="4">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3426.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="5">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3436.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="6">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3431.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="7">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3432.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="8">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3433.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="9">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3435.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+							<div class="img-item">
+								<a href="#" data-id="10">
+									<img
+										src="/Projects/Online-Store/Online-Store-Images/_MG_3437.jpg"
+										alt="Shoe image"
+									/>
+								</a>
+							</div>
+						</div>
+					</div>
+					<!-- Product Information right -->
+					<div class="product-content">
+						<h2 class="product-title mt-5">DEMON SLAYER - KANAO TSUYURI</h2>
+						<div class="product-rating">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<span class="description ms-2">(61)</span>
+						</div>
+
+						<div class="product-detail">
+							<h2 class="product-details mt-5">Product Details</h2>
+							<span class="description"
+								>This is a custom shoe order that takes up to 4 weeks to make
+								max. (Excluding Shipping) We try to ship pairs as quickly as
+								possible depending on our volume. <br />
+								<br />
+								1. You will receive a Brand new pair of Air Force 1's shadow in
+								the size you requested. <br />
+								<br />
+								2. Please specify either for Men's (M) & Women's (F) size.
+								<br />
+								<br />
+								3. Tracking details will be sent to you once dispatched.
+								<br />
+								<br />
+								Please Refer to Size Guide. All sizes are in UK. Please double
+								check your shoe size. Shoe Box Not Included.</span
+							>
+						</div>
+
+						<div class="purchase-info mx-2 my-4">
+							<h2>Price</h2>
+							<h2 class="price my-4">£169.99</h2>
+							<input class="p-2" type="number" min="0" value="1" />
+							<button class="btn m-2" type="button">
+								Add to Cart <i class="bi bi-cart2 ms-2"></i>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Related Products Section -->
+			<section class="my-1 pb-5" id="featured">
+				<div class="container text-center mt-5 py-5">
+					<h3 id="related-product-header">Related Products</h3>
+					<hr class="mx-auto" />
+				</div>
+				<div class="row mx-auto container-fluid">
+					<div class="product col-lg-3 col-md-4 col-12 text-center mt-5">
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><img
+								class="mb-3 img-fluid"
+								id="related-product-img"
+								src="/Projects/Online-Store/Online-Store-Images/_MG_3441.jpg"
+								alt="Studio Ghibli Product Image"
+						/></a>
+						<div class="star mt-2">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><h5 class="p-name mt-4" id="related-product-title">
+								Haikyuu
+							</h5></a
+						>
+						<h4 class="p-price mt-4">£189.99</h4>
+					</div>
+					<div class="product col-lg-3 col-md-4 col-12 text-center mt-5">
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><img
+								class="mb-3 img-fluid"
+								id="related-product-img"
+								src="/Projects/Online-Store/Online-Store-Images/_MG_1629.jpg"
+								alt="Studio Ghibli Product Image"
+						/></a>
+						<div class="star mt-2">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><h5 class="p-name mt-4" id="related-product-title">
+								Studio Ghibli - Spirited Away & My Neighbour Totoro
+							</h5></a
+						>
+						<h4 class="p-price mt-4">£189.99</h4>
+					</div>
+					<div class="product col-lg-3 col-md-4 col-12 text-center mt-5">
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><img
+								class="mb-3 img-fluid"
+								id="related-product-img"
+								src="/Projects/Online-Store/Online-Store-Images/_MG_3103.jpg"
+								alt="Studio Ghibli Product Image"
+						/></a>
+						<div class="star mt-2">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><h5 class="p-name mt-4" id="related-product-title">
+								Studio Ghibli - My Neighbour Totoro
+							</h5></a
+						>
+						<h4 class="p-price mt-4">£169.99</h4>
+					</div>
+					<div class="product col-lg-3 col-md-4 col-12 text-center mt-5">
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><img
+								class="mb-3 img-fluid"
+								id="related-product-img"
+								src="/Projects/Online-Store/Online-Store-Images/_MG_3510.jpg"
+								alt="Studio Ghibli Product Image"
+						/></a>
+						<div class="star mt-2">
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+							<i class="bi bi-star-fill"></i>
+						</div>
+						<a
+							href="https://www.linkedin.com/in/todd-owen-mpeli-831b18121/"
+							target="_blank"
+							rel="noopener noreferrer"
+							><h5 class="p-name mt-4" id="related-product-title">
+								Bleach - Ichigo Kurosaki
+							</h5></a
+						>
+						<h4 class="p-price mt-4">£169.99</h4>
+					</div>
+				</div>
+			</section>
+		</main>
+
+		<footer class="mt-5 p-sm-5 p-1">
+			<!-- Footer Information Section -->
+			<div class="d-flex row row-cols-lg-12 container-fluid mx-2">
+				<div
+					class="footer-one col text-center m-2 mt-5 mx-lg-2 align-self-center"
+				>
+					<img
+						class="img-fluid p-5"
+						id="footer-icon-img"
+						src="/Projects/Online-Store/Online-Store-Images/_MG_3296.jpg"
+						alt="Website Icon Image"
+					/>
+					<p class="mt-4">
+						One of a kind global street-wear shoes & merchandise.
+					</p>
+				</div>
+				<div
+					class="footer-one col text-center m-2 my-5 m-lg-2 align-self-center"
+					id="th"
+				>
+					<h5 class="text-center mb-5 m-lg-4">Contact Us</h5>
+					<div>
+						<h6 class="pb-1">Address</h6>
+						<p>New Cut Road, Swansea, United Kingdom</p>
+					</div>
+					<div>
+						<h6 class="mt-4 pb-1">Email</h6>
+						<p>ToddblueStudio@gmail.com</p>
+					</div>
+					<div class="row row-cols-3 justify-content-center mt-5 gx-0">
+						<a
+							class="col"
+							href="https://twitter.com/ToddOwenMpeli"
+							target="_blank"
+							><i class="bi bi-github" id="footer-social"></i
+						></a>
+						<a
+							class="col"
+							href="https://twitter.com/ToddOwenMpeli"
+							target="_blank"
+							><i class="bi bi-twitter" id="footer-social"></i
+						></a>
+						<a
+							class="col"
+							href="https://twitter.com/ToddOwenMpeli"
+							target="_blank"
+							><i class="bi bi-linkedin" id="footer-social"></i
+						></a>
+					</div>
+				</div>
+				<div class="footer-one col text-center m-2 m-lg-2 align-self-center">
+					<h5 class="text-center pb-2">Instagram</h5>
+					<div class="d-flex row row-cols-md-4 justify-content-center p-1 gx-1">
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3390.jpg"
+							alt="Product image"
+						/>
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3262.jpg"
+							alt="Product image"
+						/>
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3178.jpg"
+							alt="Product image"
+						/>
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3691.jpg"
+							alt="Product image"
+						/>
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3269.jpg"
+							alt="Product image"
+						/>
+						<img
+							class="img-fluid m-2 m-md-2"
+							src="/Projects/Online-Store/Online-Store-Images/_MG_3090.jpg"
+							alt="Product image"
+						/>
+					</div>
+				</div>
+			</div>
+			<div class="copyright container-fluid mt-1 mt-lg-4">
+				<p
+					class="mx-auto p-1 p-md-2 mt-1 mt-lg-4"
+					id="all-rights-reserved-title"
+				>
+					ToddblueStudio © 2021. All Rights Reserved
+				</p>
+			</div>
+		</footer>
+
+		<!--===== SCROLL REVEAL =====-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!--===== MAIN JS =====-->
+		<script src="/Projects/Online-Store/onlineStore.js"></script>
+
+		<!-- Bootstrap JavaScript -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

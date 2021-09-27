@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<!-- Website anime-title-list -->
+		<!-- Website icon -->
+		<link
+			rel="icon"
+			href="/Projects/Online-Store/Online-Store-Images/_MG_3296.jpg"
+			type="image/x-icon"
+		/>
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
+			crossorigin="anonymous"
+		/>
+		<!-- Bootstrap Icon Link -->
+		<link
+			rel="stylesheet"
+			href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+		/>
+		<!-- CSS stylesheet link -->
+		<link
+			rel="stylesheet"
+			href="/Projects/Online-Store/Assets/CSS/shopStyles.css"
+		/>
+		<!-- Icons for Mobile viewport -->
+		<link
+			rel="stylesheet"
+			href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+		/>
+	</head>
+	<!-- Automatically changes website theme to the current device system theme -->
+	<!--class="theme-auto"  -->
+	<body>
+		<!--===== HEADER =====-->
+		<header class="header" id="header">
+			<!-- Navigation Section -->
+			<nav class="nav navbar navbar-expand-md">
+				<div class="container">
+					<div class="button">
+						<a href="/Projects/Online-Store/onlineStore.html">
+							<img
+								id="website-icon"
+								onmouseover="setNewImage()"
+								onmouseout="setOldImage()"
+								src="/Projects/Online-Store/Online-Store-Images/Picture2-removebg-preview.png"
+								alt="profile pictures"
+						/></a>
+					</div>
+
+					<button
+						class="navbar-toggler"
+						type="button"
+						data-bs-toggle="collapse"
+						data-bs-target="#navmenu"
+					>
+						<span class="navbar-toggler-icon"></span>
+					</button>
+
+					<div class="collapse navbar-collapse" id="navmenu">
+						<ul class="navbar-nav ms-auto">
+							<li class="nav-item">
+								<a href="/Projects/Online-Store/shop.html" class="nav-link"
+									>Shop</a
+								>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown"
+									href="/Projects/Online-Store/anime.html"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									Anime
+								</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a
+									class="nav-link dropdown"
+									href="/Projects/Online-Store/newRelease.html"
+									id="navbarDropdownMenuLink"
+									role="button"
+									data-bs-toggle="dropdown"
+									aria-expanded="false"
+								>
+									New Releases
+								</a>
+								<ul
+									class="dropdown-menu"
+									aria-labelledby="navbarDropdownMenuLink"
+								>
+									<li><a class="dropdown-item" href="#">Air Force 1</a></li>
+									<li><a class="dropdown-item" href="#">bags</a></li>
+								</ul>
+							</li>
+							<li class="nav-item">
+								<a href="#" class="nav-link"
+									><i class="checkout-cart bi bi-bag"></i
+								></a>
+							</li>
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</header>
+
+		<!--===== MAIN SECTION =====-->
+		<main class="main"></main>
+
+		<!--===== SCROLL REVEAL =====-->
+		<script src="https://unpkg.com/scrollreveal"></script>
+
+		<!--===== MAIN JS =====-->
+		<script src="/Projects/Online-Store/onlineStore.js"></script>
+		<!-- Bootstrap JavaScript -->
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+			crossorigin="anonymous"
+		></script>
+	</body>
+</html>

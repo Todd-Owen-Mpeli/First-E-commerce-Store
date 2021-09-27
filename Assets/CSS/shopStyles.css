@@ -1,0 +1,339 @@
+/*===== GOOGLE FONTS =====*/
+@import url("https://fonts.googleapis.com/css2?family=Heebo&display=swap");
+
+/*==================== VARIABLES CSS ====================*/
+:root {
+	/*========== Navigation Section ==========*/
+	--header-height: 3rem;
+
+	/*========== Font Properties ==========*/
+	--font-first: "Heebo", cursive;
+
+	/*========== Font Weight ==========*/
+	--font-weight-light: 300;
+	--font-weight-semi-light: 400;
+	--font-weight-medium: 500;
+	--font-weight-semi-bold: 600;
+	--font-weight-bold: 700;
+
+	/*========== Transition Delay ==========*/
+	--transition-delay: 1s;
+
+	/*========== Colours ==========*/
+
+	/* Website Colours */
+	--color-white: #fff;
+	--color-black: #000000;
+	--color-light-black: #292929;
+
+	/* Website background Colours */
+	--color-white-background: #fff;
+	--color-black-background: #000000;
+	--color-light-black-background: #292929;
+
+	/* Extra Website background Colours */
+	--color-blue-darkgrey-background: #17191a;
+	--color-blue-grey-background: #2b2c2c;
+
+	/* Font Colours */
+	--color-font-white: #fff;
+	--color-font-black: #000000;
+	--color-font-light-black: #292929;
+
+	/*  Navigation Menu Links */
+	--color-navigation-hover-Purple: #9d73ff;
+
+	/* General Hover colour */
+	--color-general-hover-lightGrey: #616161;
+	--color-general-hover-Purple: #9d73ff;
+
+	/*  Add-To-Cart Menu Links */
+	--color-add-to-cart-Purple: #9d73ff;
+	--color-add-to-cart-hover-Purple: #743afa;
+
+	/*  Related Products Section Stars */
+	--color-related-products-stars-gold: #ffd900;
+
+	/* Footer color */
+	--color-font-Footer-lightGrey: #616161;
+
+	/*========== Font Size ==========*/
+	--font-size-header: 1.5rem;
+	--font-size-body: 1rem;
+	--font-size-small: 0.75rem;
+	--font-size-normal: 1.25rem;
+	--font-size-large: 1.75rem;
+	--font-size-XL-large: 2.5rem;
+	--font-size-XXL-large: 4rem;
+
+	/*========== image box shadow ==========*/
+	--box-shadow-1: 0em 2em 1em rgba(0, 0, 0, 0.25);
+	--box-shadow-2: 0em 3em 3em 0.5em rgba(0, 0, 0, 0.25);
+}
+
+/*==================== BASE ====================*/
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	transition: var(--transition-delay);
+	background: var(--color-white);
+	color: var(--color-black);
+	margin: 0;
+	padding: 0;
+}
+
+ul {
+	list-style: none;
+	text-align: center;
+}
+
+a {
+	text-decoration: none;
+	list-style: none;
+}
+
+a:hover {
+	color: var(--color-general-hover-Purple);
+}
+
+li {
+	text-decoration: none;
+	list-style: none;
+}
+
+img {
+	width: 100%;
+	height: auto;
+	object-fit: cover;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+	margin: 0;
+	line-height: 1.2em;
+}
+
+/*===== NAVIGATION MENU =====*/
+.header {
+	background-color: var(--color-white-background);
+	/* border: #000000 0.15rem solid; */
+}
+
+.navbar-nav {
+	column-gap: 1rem;
+}
+
+.nav-link,
+.nav-item,
+.dropdown,
+.checkout-cart,
+.dropdown-item {
+	font-family: var(--font-first);
+	font-size: var(--font-size-body);
+	color: var(--color-font-black);
+}
+
+#website-icon {
+	height: 35px;
+	width: 35px;
+}
+
+#website-icon:hover {
+	transition: all 0.2s ease-in-out;
+	height: 37.5px;
+	width: 37.5px;
+}
+
+.dropdown-item:hover {
+	transition: all 0.25s ease-in-out;
+	color: var(--color-navigation-hover-Purple);
+}
+
+.website-name:hover {
+	transition: all 0.25s ease-in-out;
+	color: var(--color-navigation-hover-Purple);
+}
+
+.dropdown:hover {
+	transition: all 0.25s ease-in-out;
+	color: var(--color-navigation-hover-Purple);
+}
+
+.nav-link:hover {
+	transition: all 0.25s ease-in-out;
+	color: var(--color-navigation-hover-Purple);
+}
+
+.checkout-cart:hover {
+	transition: all 0.25s ease-in-out;
+	color: var(--color-navigation-hover-Purple);
+}
+
+/*===== MAIN SECTION =====*/
+.products-section,
+.section {
+	border: #743afa 0.15rem solid;
+	font-family: var(--font-first);
+	color: var(--color-font-black);
+}
+
+.title-section {
+	margin-top: 5rem;
+}
+
+.title {
+	font-size: 6rem;
+	letter-spacing: 0.2rem;
+}
+
+.anime-title-list {
+	color: var(--color-font-black);
+	font-size: var(--font-size-header);
+}
+
+.product-image {
+	height: 300px;
+	width: 100%;
+}
+
+/*  Products Display Section */
+.products {
+	background-color: var(--color-white-background);
+	border: #743afa 0.15rem solid;
+	margin: 0rem 2rem;
+}
+
+.products-section {
+	padding: 4rem 2.5rem;
+}
+
+.product-title {
+	font-size: var(--font-size-large);
+}
+
+.product-title:hover {
+	font-size: var(--font-size-large);
+	color: var(--color-font-Purple);
+}
+
+.product-price {
+	font-family: var(--font-first);
+	font-size: var(--font-size-header);
+}
+
+.products-display {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border: #743afa 0.15rem solid;
+}
+
+.card {
+	width: 30rem;
+	height: 25rem;
+	border-style: none;
+	overflow-y: hidden;
+	border-radius: 1rem;
+	padding: 4rem 2rem 0;
+	color: var(--white-color);
+}
+
+.card__img,
+.products__data,
+.products__title,
+.products__price,
+.products__description {
+	transition: 0.5s;
+}
+
+.card__img {
+	position: absolute;
+	width: 260px;
+	filter: drop-shadow(5px 10px 15px rgba(8, 9, 13, 0.4));
+}
+
+.products__data {
+	transform: translateY(13.2rem);
+	text-align: center;
+}
+
+.products__title {
+	font-size: var(--font-size-large);
+	color: var(--color-font-Purple);
+	margin-bottom: 0.5rem;
+}
+
+.products__price {
+	display: inline-block;
+	font-size: var(--font-size-header);
+	color: var(--color-font-black);
+	font-weight: 500;
+	margin-bottom: 1.25rem;
+}
+
+.products__description {
+	font-family: var(--font-first);
+	font-size: var(--font-size-body);
+	color: var(--color-font-black);
+	text-align: initial;
+	margin-bottom: 1.25rem;
+	opacity: 0;
+}
+
+.products__button {
+	display: block;
+	width: max-content;
+	padding: 1rem 2rem;
+	border-radius: 0.5rem;
+	opacity: 0;
+	font-weight: 600;
+	transition: 0.2s;
+	word-spacing: 0.15rem;
+	letter-spacing: 0.075rem;
+	font-size: var(--font-size-normal);
+	background-color: var(--color-general-hover-Purple);
+	color: var(--color-font-white);
+}
+
+.products__button:hover {
+	color: var(--color-font-white);
+	box-shadow: 0 18px 40px -12px #9d73ff;
+}
+
+/* Hover card effect */
+.card:hover .card__img {
+	transform: translate(0rem, -6rem) rotate(0deg);
+}
+
+.card:hover .products__data {
+	transform: translateY(7rem);
+}
+
+.card:hover .products__title {
+	transform: translateX(-5rem);
+	margin-bottom: 0;
+}
+
+.card:hover .products__price {
+	transform: translateX(-7.2rem);
+}
+
+.card:hover .products__description,
+.card:hover .products__button {
+	transition-delay: 0.05s;
+	opacity: 1;
+}
